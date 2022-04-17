@@ -8,12 +8,12 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Thompson Manda</h1>
+        <h1>Tutu Simz</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <HeaderButtons />
 
         <div className="my__image">
-          <img src={myImage} alt="Picture of me" />
+          <img src={myImage} alt="Tutu" />
         </div>
         <a className="scroll__down" href="#contact">
           Scroll Down

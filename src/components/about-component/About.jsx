@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import myImage from "../../assets/me-about.jpeg";
+import myImage from "../../assets/me-about.jpg";
 
 // REACT ICONS
 import { FaAward } from "react-icons/fa";

@@ -11,6 +11,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#"
         onClick={() => setActiveNav("#")}
@@ -18,6 +19,7 @@ const Nav = () => {
       >
         <BiHomeAlt />
       </a>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
@@ -25,6 +27,7 @@ const Nav = () => {
       >
         <AiOutlineUser />
       </a>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
@@ -32,6 +35,7 @@ const Nav = () => {
       >
         <MdWorkOutline />
       </a>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
@@ -39,6 +43,7 @@ const Nav = () => {
       >
         <RiServiceLine />
       </a>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}

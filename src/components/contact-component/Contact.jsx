@@ -44,7 +44,7 @@ const Contact = () => {
             <HiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>thompsonmanda08@gmail.com</h5>
-            <a href="mailto:thompsonmanda08@gmail.com">Send a Message</a>
+            <a href="mailto:thompsonmanda08@outlook.com">Send a Message</a>
           </article>
           <article key={2} className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
@@ -63,7 +63,7 @@ const Contact = () => {
             <h4>Address</h4>
             <h5>55 Ndola Road</h5>
             <a href="https://maps.google.com" target="_blank" rel="noreferrer">
-              <small>Mufulira, Zambia</small>
+              Mufulira, Zambia
             </a>
           </article>
         </div>

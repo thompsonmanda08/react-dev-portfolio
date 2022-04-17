@@ -12,13 +12,25 @@ const Footer = () => {
         <div className="container footer__container">
           <div className="logo__img"> WEBB-GRAPHICS</div>
           <div className="footer__socials">
-            <a href="https://linkedin.com/in/thompsonmanda08" target="_blank">
+            <a
+              href="https://linkedin.com/in/thompsonmanda08"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin />
             </a>
-            <a href="https://github.com/thompsonmanda08" target="_blank">
+            <a
+              href="https://github.com/thompsonmanda08"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub />
             </a>
-            <a href="https://facebook.com/thompsonmanda08" target="_blank">
+            <a
+              href="https://facebook.com/thompsonmanda08"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebook />
             </a>
           </div>
